@@ -1,0 +1,40 @@
+<html>
+
+<head>
+	<title>Snakes with swords ._.</title>
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #9aa558;
+		}
+
+		canvas {
+			width: 800px;
+			height: 600px;
+			border: 5px solid #5e6534;
+		}
+	</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.1/pixi.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
+</head>
+
+<body>
+	<img src="static/player.png" id="player" width="32" height="32">
+	<img src="static/dead.png" id="player-dead" width="32" height="32">
+	<img src="static/attack.png" id="player-attack" width="32" height="32">
+	<canvas id="canvas"></canvas>
+	<input type="hidden" class="name">
+	<style>
+		img {
+
+			display: none;
+
+		}
+	</style>
+</body>
+
+<script src="/static/game.js"></script>
+
+</html>

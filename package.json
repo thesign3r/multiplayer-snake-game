@@ -1,0 +1,15 @@
+{
+	"name": "thesigner-game",
+	"version": "1.0.0",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"test": "node server.js"
+	},
+	"author": "thesigner",
+	"license": "do whatever you want",
+	"dependencies": {
+		"express": "^4.14.0",
+		"socket.io": "^1.7.2"
+	}
+}
